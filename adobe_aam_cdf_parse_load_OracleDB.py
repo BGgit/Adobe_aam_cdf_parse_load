@@ -26,7 +26,7 @@ yesterday = datetime.date.today() - add
 dd = datetime.date.strftime(TODAY,format)
 
 # conection variables
-connection = cx_Oracle.connect("crm/Prd@dwdbd1.darden.com:1521/crmprd")
+connection = cx_Oracle.connect("username/password@host:port/default_database_or_schema")
 cur = connection.cursor()
 
 # datafrae headers
